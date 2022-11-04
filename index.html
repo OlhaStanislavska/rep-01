@@ -4,10 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello HTML</title>
+    <title>Test page</title>
 </head>
 <body>
-    <h1>Hello HTML</h1>
-    <img src="img/boom.png" alt="boom">
+    <h1>Test page</h1>
+    <h2>HTML attributes</h2>
+
+    <div>
+        <h3><mark>List</mark></h3>
+        <ul>
+            <li>Point 1</li>
+            <li>Point 2</li>
+            <li>Point 3</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3><mark>Form</mark></h3>
+        <p>Please, enter something</p>
+        <form>
+            Login: <input name="login" placeholder="Login" autocomplete="off" autofocus type="text" /><br>
+            Password: <input name="password" placeholder="Password" type="password" />
+            <input name="repassword" placeholder="Repeat password" type="password" />
+            <br>
+
+            <div>
+                Level:
+                <label><input type="radio" name="starter" value="1">starter</label>
+                <label><input type="radio" name="middle" value="2" checked="checked">middle</label>
+                <label><input type="radio" name="advanced" value="3">advanced</label>
+            </div>
+
+            <div>
+                <div>Extra skills:
+                <label><input type="checkbox" name="skill1"> skill 1</label>
+                <label><input type="checkbox" name="skill2"> skill 2</label>
+            </div>
+
+            I'm not a robot <input name="çonfirmation" type="checkbox" />
+            <input type="submit" value="Register" />
+        </form>
+    </div>
+
+    <div>
+        <h3><mark>Table</mark></h3>
+        <table>
+            <thead>
+                <tr>
+                <th width="30">#</th>
+                <th width="80">First</th>
+                <th width="80">Last</th>
+                <th width="80">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th>1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                </tr>
+                <tr>
+                <th>2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                </tr>
+                <tr>
+                <th>3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <video width="540" autoplay controls loop>
+        <source src="/video/video.mp4" type="video/mp4">
+    </video>
+
+    <div>
+        <div style="float: left; width: 50%;">
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+        <div style="float: right; width: 50%;">
+            <br>
+            <img src="img/html.png" alt="test picture" width="90"/>
+        </div>
+    </div>
+
+    
+    
+    
+    
 </body>
 </html>
